@@ -10,7 +10,7 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-/[Aa]ssets/SteamVR/
+# /[Aa]ssets/SteamVR/
 /[Aa]ssets/SteamVR_Input/
 /[Aa]ssets/SteamVR_Resources/
 /[Aa]ssets/StreamingAssets/
