@@ -11,8 +11,10 @@
 /[Mm]emoryCaptures/
 
 /[Aa]ssets/SteamVR/
+/[Aa]ssets/SteamVR.meta/
 /[Aa]ssets/SteamVR_Input/
 /[Aa]ssets/SteamVR_Resources/
+/[Aa]ssets/SteamVR_Resources.meta/
 /[Aa]ssets/StreamingAssets/
 /[Aa]ssets/ResonanceAudio/
 
