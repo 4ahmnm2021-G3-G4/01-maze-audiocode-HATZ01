@@ -2,6 +2,7 @@
 
 ### Project description: 
 Explore sound in its basics in virtual reality (VR).
+The game is based on the idea of the Easter egg hunt. The player has to look for Easter eggs in a maze, collect them and finally go through a door at the end.
 
 ### Development platform: 
 OS: MacOS BigSur 11, Game Engine: Unity 2019.1.14f1, Visual Studio Code 1.4, Steam,  
