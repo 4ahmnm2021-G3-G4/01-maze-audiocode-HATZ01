@@ -5,6 +5,7 @@ using UnityEngine;
 public class Vase : MonoBehaviour
 {
     public GameObject egg;
+    public GameObject vase;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,7 @@ public class Vase : MonoBehaviour
         {
             Debug.Log("Flowers");
             egg.GetComponent<Rigidbody>().useGravity = true;
+            vase.SetActive(false);
         }
     }
 
