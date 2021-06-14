@@ -15,7 +15,7 @@ public class Vase : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        if (trigger.gameObject.name == "Flowers")
+        if (trigger.gameObject.name == "Tullip")
         {
             Debug.Log("Flowers");
             egg.GetComponent<Rigidbody>().useGravity = true;
