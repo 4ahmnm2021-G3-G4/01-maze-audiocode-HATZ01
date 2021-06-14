@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Vase : MonoBehaviour
 {
-    public GameObject egg;
+    public GameObject flower;
     public GameObject vase;
+
+    public GameObject vaseAndFlower;
 
     // Start is called before the first frame update
     void Start()
@@ -15,11 +17,12 @@ public class Vase : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        if (trigger.gameObject.name == "Tullip")
+        if (trigger.gameObject.tag == "tullip")
         {
             Debug.Log("Flowers");
-            egg.GetComponent<Rigidbody>().useGravity = true;
             vase.SetActive(false);
+            flower.SetActive(false);
+            vaseAndFlower.SetActive(true);
         }
     }
 
