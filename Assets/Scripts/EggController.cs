@@ -6,6 +6,14 @@ public class EggController : MonoBehaviour
 {
 
     public GameObject egg;
+    public GameObject vase1;
+    public GameObject vase2;
+    public GameObject vase3;
+
+    private void EggGravity()
+    {
+
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +23,9 @@ public class EggController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        egg.GetComponent<Rigidbody>().useGravity = true;
+        if (vase1.activeInHierarchy == true && vase2.activeInHierarchy == true && vase3.activeInHierarchy == true)
+        {
+            egg.GetComponent<Rigidbody>().useGravity = true;
+        }
     }
 }
