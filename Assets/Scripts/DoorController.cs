@@ -7,11 +7,12 @@ public class DoorController : MonoBehaviour
 
     public GameObject door;
     public Vector3 target = new Vector3(1.953262f, 3.338906f, 0.1712306f);
+    public AudioSource audioData;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        audioData = GetComponent<AudioSource>();
     }
 
     void OnTriggerEnter(Collider trigger)
@@ -19,6 +20,7 @@ public class DoorController : MonoBehaviour
         if (trigger.gameObject.name == "Egg")
         {
             door.transform.position = target;
+            audioData.Play();
         }
     }
 
