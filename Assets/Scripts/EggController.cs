@@ -10,16 +10,6 @@ public class EggController : MonoBehaviour
     public GameObject vase2;
     public GameObject vase3;
 
-    private void EggGravity()
-    {
-
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     // Update is called once per frame
     void Update()
     {

@@ -22,10 +22,4 @@ public class DoorCloseController : MonoBehaviour
             audioData.Play();
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
