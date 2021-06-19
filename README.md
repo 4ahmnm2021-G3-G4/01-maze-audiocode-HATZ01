@@ -2,7 +2,7 @@
 
 ### Project description: 
 Explore sound in its basics in virtual reality (VR).
-The game is based on the idea of the Easter egg hunt. The player has to look for flowers in the maze, collect three of them and put each of them in a vase. After every vase is filled the player can collect an egg, which is the key to open the door at the end.
+The game is based on the idea of the Easter egg hunt, but with a twist of "Alice in Wonderland". The player has to look for flowers in the maze, collect three of them and put each of them in a vase. After every vase is filled the player can collect an egg, which is the key to open the door at the end.
 
 ### Development platform: 
 OS: MacOS BigSur 11, Game Engine: Unity 2019.1.14f1, Visual Studio Code 1.4, Steam,  
