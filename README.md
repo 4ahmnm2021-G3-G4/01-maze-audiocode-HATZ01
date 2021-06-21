@@ -26,7 +26,7 @@ Oculus Rift/S, Vive;
 Tested on Oculus Rift S
 
 ### Visuals: 
--
+![ScreenShot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-HATZ01/blob/main/Screenshots/Bildschirmfoto%202021-06-21%20um%2008.52.03.png)
 
 ### Third party material: 
 various sounds from BBC website
