@@ -27,6 +27,10 @@ Tested on Oculus Rift S
 
 ### Visuals: 
 ![ScreenShot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-HATZ01/blob/main/Screenshots/Bildschirmfoto%202021-06-21%20um%2008.52.03.png)
+![ScreenShot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-HATZ01/blob/main/Screenshots/Bildschirmfoto%202021-06-21%20um%2008.52.25.png)
+![ScreenShot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-HATZ01/blob/main/Screenshots/Bildschirmfoto%202021-06-21%20um%2008.52.48.png)
+![ScreenShot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-HATZ01/blob/main/Screenshots/Bildschirmfoto%202021-06-21%20um%2008.53.09.png)
+![ScreenShot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-HATZ01/blob/main/Screenshots/Bildschirmfoto%202021-06-21%20um%2008.53.40.png)
 
 ### Third party material: 
 various sounds from BBC website
