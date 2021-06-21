@@ -20,6 +20,7 @@ public class DoorCloseController : MonoBehaviour
         {
             door.transform.position = target;
             audioData.Play();
+            Debug.Log("Door Close Works");
         }
     }
 }

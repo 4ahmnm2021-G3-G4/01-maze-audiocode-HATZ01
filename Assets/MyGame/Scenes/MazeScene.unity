@@ -6768,6 +6768,10 @@ PrefabInstance:
       propertyPath: m_HDR
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5452286, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
 --- !u!1001 &608985263
@@ -6866,6 +6870,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GrandfatherClock
       objectReference: {fileID: 0}
+    - target: {fileID: -3202742794738357884, guid: 09d6f640133ba46d5bb545da50681343,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 09d6f640133ba46d5bb545da50681343,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6920,11 +6929,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -3202742794738357884, guid: 09d6f640133ba46d5bb545da50681343,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09d6f640133ba46d5bb545da50681343, type: 3}
@@ -7858,6 +7862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 101167673}
+  speed: 3
   target: {x: -3.336, y: 5.01, z: 1.23}
   audioData: {fileID: 812887366}
   audioData2: {fileID: 252200614}
@@ -16258,8 +16263,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035825443}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.402349, y: 0.54, z: 0.09}
-  m_LocalScale: {x: 2.6767, y: 1, z: 1.3544}
+  m_LocalPosition: {x: -3.402349, y: 2.2, z: 0.09}
+  m_LocalScale: {x: 2.6767, y: 4.2374, z: 1.3544}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 23
