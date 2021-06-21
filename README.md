@@ -33,14 +33,15 @@ Tested on Oculus Rift S
 ![ScreenShot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-HATZ01/blob/main/Screenshots/Bildschirmfoto%202021-06-21%20um%2008.53.40.png)
 
 ### Third party material: 
-various sounds from BBC website
-various assets from cgtrader
+- various sounds from BBC website
+- various assets from cgtrader
 
 ### Project state: 
-85%/100% finished
+99%/100% finished
 <progress max="100" value="2"></progress>
 
 ### Limitations: 
+- Material for Commode not yet working.
 
 ### Lessons Learned: 
 
