@@ -32,6 +32,9 @@ Tested on Oculus Rift S
 ![ScreenShot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-HATZ01/blob/main/Screenshots/Bildschirmfoto%202021-06-21%20um%2008.53.09.png)
 ![ScreenShot](https://github.com/4ahmnm2021-G3-G4/01-maze-audiocode-HATZ01/blob/main/Screenshots/Bildschirmfoto%202021-06-21%20um%2008.53.40.png)
 
+Screenrecording: https://youtu.be/rDX7vPOr5l0
+Because of the size I couldn't directly include it in a folder in my repositiory. This was the next best option.
+
 ### Third party material: 
 - various sounds from BBC website
 - various assets from cgtrader
