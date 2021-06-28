@@ -44,5 +44,8 @@ Tested on Oculus Rift S
 - Material for Commode not yet working.
 
 ### Lessons Learned: 
+- Learned how to implement 3D sounds in VR.
+- Trained my coding skills.
+- Learned how to work arround certain issues.
 
 Copyright by HATZ
