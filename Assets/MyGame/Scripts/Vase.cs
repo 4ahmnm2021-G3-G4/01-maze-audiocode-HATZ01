@@ -19,8 +19,8 @@ public class Vase : MonoBehaviour
     {
         if (trigger.gameObject.tag == "tullip")
         {
-            vase.SetActive(false);
-            flower.SetActive(false);
+            Destroy(vase);
+            Destroy(flower);
             vaseAndFlower.SetActive(true);
         }
     }

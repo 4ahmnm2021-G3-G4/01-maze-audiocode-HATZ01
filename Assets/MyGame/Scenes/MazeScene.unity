@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 101167676}
   - component: {fileID: 101167675}
   - component: {fileID: 101167674}
+  - component: {fileID: 101167678}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -288,6 +289,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &101167678
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101167673}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 00c8771dbef954e80a185ae022a84187, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &129485991
 GameObject:
   m_ObjectHideFlags: 0
@@ -7934,6 +7954,7 @@ MonoBehaviour:
   target: {x: -3.336, y: 5.01, z: 1.23}
   audioData: {fileID: 812887366}
   audioData2: {fileID: 252200614}
+  animator: {fileID: 101167678}
 --- !u!82 &812887366
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16625,7 +16646,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: 101167673}
   target: {x: -3.336, y: 1.69, z: 1.23}
-  audioData: {fileID: 0}
+  audioData: {fileID: 2035825450}
+  animator: {fileID: 101167678}
 --- !u!114 &2035825449
 MonoBehaviour:
   m_ObjectHideFlags: 0

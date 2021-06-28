@@ -7,6 +7,7 @@ public class DoorCloseController : MonoBehaviour
     public GameObject door;
     public Vector3 target = new Vector3();
     public AudioSource audioData;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,8 @@ public class DoorCloseController : MonoBehaviour
         Debug.Log("Trigger" + trigger.name);
         if (trigger.gameObject.name == "HeadCollider")
         {
-            door.transform.position = target;
+            //door.transform.position = target;
+            animator.SetBool("doorClose", true);
             audioData.Play();
             Debug.Log("Door Close Works");
         }
