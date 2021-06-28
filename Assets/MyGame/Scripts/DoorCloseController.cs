@@ -21,7 +21,7 @@ public class DoorCloseController : MonoBehaviour
         if (trigger.gameObject.name == "HeadCollider")
         {
             //door.transform.position = target;
-            animator.SetBool("doorClose", true);
+            animator.SetBool("doorOpen", false);
             audioData.Play();
             Debug.Log("Door Close Works");
         }
