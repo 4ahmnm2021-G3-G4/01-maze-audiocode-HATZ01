@@ -16,7 +16,8 @@ public class DoorCloseController : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        if (trigger.gameObject.name == "Player")
+        Debug.Log("Trigger" + trigger.name);
+        if (trigger.gameObject.name == "HeadCollider")
         {
             door.transform.position = target;
             audioData.Play();
